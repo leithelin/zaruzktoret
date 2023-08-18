@@ -1,0 +1,30 @@
+
+.main-banner-anim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 2rem;
+  height: 1.5rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  .main-banner-anim {
+    font-size: 2rem;
+    margin-top: 2rem;
+    height: 2rem;
+  }
+}
+/* .main-banner-anim-title {
+  font-weight: 300 !important;
+} */
+.main-banner-anim-item {
+  position: absolute;
+  right: 0;
+  left: 0;
+  font-weight: 500;
+  line-height: 1.5;
+  opacity: 0;
+  white-space: wrap;
+}
